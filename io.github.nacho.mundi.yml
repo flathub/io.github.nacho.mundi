@@ -9,6 +9,7 @@ finish-args:
   - --share=ipc
   - --socket=fallback-x11
   - --socket=wayland
+  - --socket=pulseaudio
   - --device=dri
 build-options:
   append-path: /usr/lib/sdk/rust-stable/bin
@@ -21,7 +22,7 @@ modules:
     sources:
       - type: git
         url: https://github.com/nacho/mundi.git
-        commit: 97e7bdf744a0cddef7ee9658b651df17394abc89
+        commit: e256f5a967b80bc16d3f29053a6c7ae1eda8c6ef
       # cargo-sources.json needs to be placed before the
       # copying, otherwise the config will just be empty
       - cargo-sources.json
