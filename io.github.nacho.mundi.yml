@@ -22,7 +22,7 @@ modules:
     sources:
       - type: git
         url: https://github.com/nacho/mundi.git
-        commit: 3f195c8c2e471692acab5df327fdc33a082deec2
+        commit: 5004d10518d7f22d89cd7e659675b57cff1dc16c
       # cargo-sources.json needs to be placed before the
       # copying, otherwise the config will just be empty
       - cargo-sources.json
