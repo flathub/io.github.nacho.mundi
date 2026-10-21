@@ -1,6 +1,6 @@
 app-id: io.github.nacho.mundi
 runtime: org.gnome.Platform
-runtime-version: '50'
+runtime-version: '51'
 sdk: org.gnome.Sdk
 sdk-extensions:
   - org.freedesktop.Sdk.Extension.rust-stable
@@ -22,7 +22,7 @@ modules:
     sources:
       - type: git
         url: https://github.com/nacho/mundi.git
-        commit: e2b655ddf09baaf2662a818cca220e395b5e0a4f
+        commit: 58512f17f206a5394ebfb44cbc1f8f376bf0985c
       # cargo-sources.json needs to be placed before the
       # copying, otherwise the config will just be empty
       - cargo-sources.json
